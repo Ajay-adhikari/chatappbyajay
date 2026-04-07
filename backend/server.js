@@ -31,7 +31,7 @@ app.get("&" , (req , res)=>{
 })
 
 
-server.listen(port , ()=>{
+server.listen(port, ()=>{
     connectToMongoDB();
     console.log(`server is runnign i port ${port}`);
 })
